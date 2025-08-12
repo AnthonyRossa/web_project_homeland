@@ -1,0 +1,26 @@
+.lead {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.lead__title {
+  font-weight: 900;
+  font-style: Black;
+  font-size: 96px;
+  line-height: 100px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 8% auto 3%;
+  max-width: 70%;
+}
+
+.lead__subtitle {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0 auto 8%;
+  max-width: 65%;
+}

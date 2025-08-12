@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__content {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: right;
+  padding: 5% 0 1% 0;
+}
