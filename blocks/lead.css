@@ -9,18 +9,39 @@
   font-style: Black;
   font-size: 96px;
   line-height: 100px;
-  letter-spacing: 0%;
   text-align: center;
   margin: 8% auto 3%;
   max-width: 70%;
 }
 
 .lead__subtitle {
-  font-weight: 400;
   font-size: 30px;
   line-height: 36px;
-  letter-spacing: 0%;
   text-align: center;
   margin: 0 auto 8%;
   max-width: 65%;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    max-width: 90%;
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 79px;
+  }
+
+  .lead__subtitle {
+    max-width: 90%;
+    margin: 0 auto 4%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 44px;
+  }
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
