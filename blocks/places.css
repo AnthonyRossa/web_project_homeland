@@ -1,0 +1,39 @@
+.places {
+  padding: 0 10%;
+}
+
+.places__place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr, 2fr);
+}
+
+.places__title {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  padding: 0 10% 0 0;
+}
+
+.places__artists {
+  padding: 44% 0 0 0;
+}
+
+.places__artists-title {
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 12%;
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+
+.places__artists-text {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.places__paragraph {
+  margin: 0;
+  font-size: 18px;
+  line-height: 163%;
+}
