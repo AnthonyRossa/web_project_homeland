@@ -1,1 +1,14 @@
+.grid {
+  padding: 10% 5%;
+}
 
+.grid__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.grid__image {
+  max-width: 100%;
+}
