@@ -1,24 +1,24 @@
-.content {
+.description {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
 }
 
-.content__title {
+.description__title {
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
   padding: 7% 18% 0 0;
 }
 
-.content__subtitle {
+.description__subtitle {
   font-size: 24px;
   line-height: 34px;
   padding: 0 25% 0 0;
   margin: 1%;
 }
 
-.content__signature {
+.description__signature {
   font-size: 24px;
   line-height: 34px;
   text-align: right;
@@ -26,45 +26,45 @@
   margin: 0;
 }
 
-.content__text {
+.description__text {
   font-size: 16px;
   line-height: 163%;
   padding: 2% 29% 0 0;
 }
 
 @media screen and (max-width: 768px) {
-  .content {
+  .description {
     padding: 0 2%;
   }
-  .content__title {
+  .description__title {
     padding: 7% 2% 0 0;
     font-size: 45px;
     line-height: 49px;
   }
-  .content__subtitle {
+  .description__subtitle {
     padding: 0 0;
   }
-  .content__signature {
+  .description__signature {
     padding: 0 0;
   }
-  .content__text {
+  .description__text {
     padding: 2% 0 0 0;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .content {
+  .description {
     padding: 0 4.5%;
   }
-  .content__title {
+  .description__title {
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
   }
-  .content__subtitle {
+  .description__subtitle {
     line-height: 30px;
   }
-  .content__text {
+  .description__text {
     padding: 2% 0 0 0;
   }
 }
